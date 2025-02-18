@@ -2,100 +2,100 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Mint Starter Kit",
+  "appearance": {
+    "default": "dark"
+  },
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3B54A5",
+    "light": "#3B54A5",
+    "dark": "#2b2b77"
+  },
+  "background": {
+    "color": {
+      "dark": "#020316"
+    },
+    "decoration": "windows"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
+        "dropdown": "Collection Sort & Manage",
+        "icon": "layer-group",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Betalogics",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "about"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Collection Sort & Manage",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
+              "collection-sorting/overview",
+              "collection-sorting/quickstart"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "App Setup",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "collection-sorting/quickstart",
+              {
+                "group": "Manage Collections",
+                "pages": [
+                  "collection-sorting/setup/collections/manage",
+                  "collection-sorting/setup/collections/remove"
+                ]
+              },
+              {
+                "group": "Manage Sorting Rules",
+                "pages": [
+                  "collection-sorting/setup/sortings/configure",
+                  "collection-sorting/setup/sortings/remove"
+                ]
+              }
             ]
           }
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "global": {}
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:app.support@betalogics.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Shopify Apps",
+      "href": "https://apps.shopify.com/partners/betalogics"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "linkedin": "https://pk.linkedin.com/company/betalogics"
+    },
+    "links": [
+      {
+        "header": "Resources",
+        "items": [
+          {
+            "label": "About",
+            "href": "https://www.betalogics.com/about"
+          },
+          {
+            "label": "Website",
+            "href": "https://www.betalogics.com"
+          }
+        ]
+      }
+    ]
   }
 }
