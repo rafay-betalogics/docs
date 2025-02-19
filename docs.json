@@ -32,8 +32,7 @@
           {
             "group": "Collection Sort & Manage",
             "pages": [
-              "collection-sorting/overview",
-              "collection-sorting/quickstart"
+              "collection-sorting/overview"
             ]
           },
           {
