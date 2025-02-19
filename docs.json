@@ -24,12 +24,6 @@
         "icon": "layer-group",
         "groups": [
           {
-            "group": "Betalogics",
-            "pages": [
-              "about"
-            ]
-          },
-          {
             "group": "Collection Sort & Manage",
             "pages": [
               "collection-sorting/overview"
@@ -53,6 +47,18 @@
                   "collection-sorting/setup/sortings/remove"
                 ]
               }
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Unlimited Bundles",
+        "icon": "boxes-stacked",
+        "groups": [
+          {
+            "group": "Unlimited Bundles",
+            "pages": [
+              "unlmited-bundles/overview"
             ]
           }
         ]
